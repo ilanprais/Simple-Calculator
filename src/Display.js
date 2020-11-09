@@ -6,7 +6,7 @@ class Display extends Component {
         return (
             <div>
                 <div id={"banner"}></div>
-                <h1 id={"display"}>|{this.props.text}</h1>
+                <input type="text" id={"display"} value={this.props.text}/>
             </div>
         );
     }
