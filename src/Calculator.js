@@ -48,7 +48,7 @@ class Calculator extends Component {
     constructButtons = () => {
         let buttons = []
         for(let symbol in this.funcs){ 
-            buttons.push(<CalcButton xpos={0} ypos={0} text={symbol} onClick={this.funcs[symbol]}/>);
+            buttons.push(<CalcButton text={symbol} onClick={this.funcs[symbol]}/>);
         }
         return <div id="btn">{buttons}</div>;
     }
