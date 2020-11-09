@@ -22,7 +22,9 @@ body #banner{
 body #display{
     position: relative;
     margin: 0vw;
-    height: 7vw;
+    height: 6vw;
+    width: 24vw;
+    border-width: 0.3vw;
     font-size: 6vw;
     background-color:white;
 }
