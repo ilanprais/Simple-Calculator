@@ -4,24 +4,6 @@ import './css/style.css'
 
 class Application extends Component {
 
-    constructor(props){
-        super(props);
-
-        this.state = {};
-    }
-
-    handleClick = () => {
-        
-    }
-
-    resetCount = (e) => {
-        
-    }
-
-    componentDidUpdate(props, state){
-      
-    }
-
     render(){
 
         return (
